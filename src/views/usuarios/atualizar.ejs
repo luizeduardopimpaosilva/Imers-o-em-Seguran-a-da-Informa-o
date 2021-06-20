@@ -1,0 +1,8 @@
+<%- include("../compartilhado/header") %>
+    <h1>Usuarios</h1>
+    <hr>
+    <a href="/usuarios" class="btn btn-default">Voltar para lista</a>
+    <br>
+    <br>
+    <%- include("form", {url: `/usuarios/${usuario.id}`, usuario: usuario}) %>
+<%- include("../compartilhado/footer") %>
